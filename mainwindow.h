@@ -18,6 +18,8 @@ public:
     ~MainWindow();
 private:
     void onAboutClicked();
+    int SaveState(int flag);
+    int LoadState(int&flag);
 private slots:
     void on_actionQuit_triggered();
 
