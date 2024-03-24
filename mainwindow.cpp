@@ -103,7 +103,7 @@ void MainWindow::on_btn_cancel_timer_2_clicked()
 void MainWindow::on_btn_set_timer_2_clicked()
 {
     auto result=QMessageBox::question(this,"poweroff now","are you sure you wanna shutdown now?");
-    if(result)
+    if(result==QMessageBox::Yes)
     {
 #if defined(WIN32)
         system("shutdown /h");
