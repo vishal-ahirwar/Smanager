@@ -47,6 +47,11 @@ MainWindow::MainWindow(QWidget *parent)
     int flag{0};
     if(LoadState(flag)==-1)SaveState(0);
     ui->btn_cancel_timer_2->setDisabled(!flag);
+    if(flag)
+    {
+        ui->cnfrm_txt->setText("Warning: Shutdown is already in Queue please Cancel the Timer First");
+        ui->btn_set_timer->setDisabled(true);
+    }
 }
 void MainWindow::onAboutClicked()
 {
