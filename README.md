@@ -1,5 +1,5 @@
-![image](https://github.com/vishal-ahirwar/Smanager/assets/73791462/a699973a-3333-41c3-9242-effffe8c66dc)
-![image](https://github.com/vishal-ahirwar/Smanager/assets/73791462/3bd9216b-9d0d-42fd-9dde-b0a7efbd6202)
+![{8ABFD1AD-3075-45C0-9CEB-6876707F0BD8}](https://github.com/user-attachments/assets/849c910d-c1d3-4cef-a883-35adf66931f4)
 
-![image](https://github.com/vishal-ahirwar/Smanager/assets/73791462/96961cbb-b7f6-4320-9142-2b2065fa14ae)
-![image](https://github.com/vishal-ahirwar/Smanager/assets/73791462/a0445427-812a-4976-8f3a-3297434b4071)
+
+![image](https://github.com/user-attachments/assets/5be3739f-905d-45d3-9809-10459eee00b5)
+
