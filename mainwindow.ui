@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Q</string>
+   <string>Shutdown Schedular</string>
   </property>
   <property name="windowIcon">
    <iconset theme="applications-engineering"/>

@@ -64,18 +64,23 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_actionQuit_triggered()
 {
+    auto res=QMessageBox::question(this,"Quit","Are you sure you want to quit?");
+    if(res==QMessageBox::No)return;
     QApplication::quit();
 }
 
 
 void MainWindow::on_actionRestart_triggered()
 {
-    QApplication::beep();
+    //TODO
 }
 
 
 void MainWindow::on_btn_set_timer_clicked()
 {
+    auto res=QMessageBox::question(this,"Timer","Note: Your are about to set shutdown timer , do you really want to continue??");
+    if(res==QMessageBox::No)return;
+
     ui->btn_cancel_timer_2->setDisabled(false);
     SaveState(1);
 #if defined(WIN32)
